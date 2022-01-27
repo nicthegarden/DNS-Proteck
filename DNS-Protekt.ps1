@@ -1,4 +1,6 @@
-﻿Remove-Item c:\dnscapture\newhost.txt
+﻿#DNS Protekt Scritp
+#This script load up a list hosted on a website and then apply it to your host file.
+Remove-Item c:\dnscapture\newhost.txt
 $path = "C:\dnscapture"
 If(!(test-path $path))
 {
