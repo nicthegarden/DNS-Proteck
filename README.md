@@ -7,3 +7,4 @@ This is quite simple , it gets the DNS and put a value into you hostfile by upda
 
 
 The Exe is a ps1 file converted to be added on a task scheduler in Windows to simplify usage of the script.
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
