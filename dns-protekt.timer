@@ -1,0 +1,15 @@
+[Unit]
+Description=DNS-Protekt - Daily Blocklist Update
+Documentation=https://github.com/nicthegarden/DNS-Proteck
+
+[Timer]
+# Run daily at 3:00 AM (randomized within 1 hour to avoid server load)
+OnCalendar=daily
+RandomizedDelaySec=1h
+Persistent=true
+
+# Also run 5 minutes after boot
+OnBootSec=5min
+
+[Install]
+WantedBy=timers.target
